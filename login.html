@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="pro_style.css">
+    <script src="https://kit.fontawesome.com/f49a0966dc.js" crossorigin="anonymous"></script>
+    
+    <title>Galley</title>
+</head>
+<body>
+    
+
+    <div class="bg-container">
+        <div class="content-wrapper-grid">
+            <div class="logo-heading">
+                <i class="fa-solid fa-layer-group"></i>
+                <h2>Server</h2>
+            </div>
+            <div class="form_wrapper">
+                <form>
+                    
+                    <div class="fields">
+                        <input type="email" placeholder="Email" required>
+                    </div>
+                    <div class="fields">
+                        <input type="password" placeholder="Password" id="psd" name="psw" oninput="validatePassword()"required>
+                       
+                        
+                      
+                        
+                        
+                        
+                        <div class="password-conditions">
+    <ul>
+      <li id="charLength">Atleast 8 charactors</li>
+      <li id="uppercase">Uppercase</li>
+      <li id="lowercase">Lowercase</li>
+      <li id="number">Number</li>
+      <li id="special">SpecialCase</li>
+    </ul>
+                       </div>
+                       
+                      
+                       <i class="fa-solid fa-eye" id="showPwd"></i>
+                      
+                    </div>  
+                </form>
+                
+                
+                
+                <div class="submit-btn">
+                    <button>Sign in</button>
+                </div>
+                <div class="line-with-text">
+                    <div class="line"></div>
+                    <h4>or</h4>
+                    <div class="line"></div>
+                </div>
+                
+                <div class="submit-btn login-signup">
+                    <button>
+                        <a href="pro_index.html">Signup for new account</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="pro_js.js"></script>
+</body>
+</html>
